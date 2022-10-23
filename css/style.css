@@ -1,0 +1,13 @@
+* {
+    color: #cccccc;
+    /* background: #222222; */
+    text-align: center;
+}
+
+body {
+    background: url(../images/squid-black.png);
+}
+
+button {
+    color: #333333;
+}
