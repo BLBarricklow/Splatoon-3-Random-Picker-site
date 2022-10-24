@@ -11,3 +11,19 @@ body {
 button {
     color: #333333;
 }
+
+.select-panel {
+    width: clamp(300px, 40vw, 800px);
+    height: clamp(300px, 40vh, 450px);
+    margin: auto;
+    border-radius: 2%;
+    background-color: #333333;
+}
+
+.weapon-panel {
+    width: clamp(300px, 40vw, 800px);
+    height: clamp(150px, 20vh, 400px);
+    margin: auto;
+    border-radius: 2%;
+    background-color: #693800;
+}
