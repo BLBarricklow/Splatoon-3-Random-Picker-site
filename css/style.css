@@ -1,5 +1,11 @@
+@font-face {
+    font-family: "Splatfont2";
+    src: url(../assets/font/Splatfont2.ttf) format("truetype");
+}
+
 * {
     color: #cccccc;
+    font-family: "Splatfont2", sans-serif;
     /* background: #222222; */
     text-align: center;
 }
@@ -10,6 +16,7 @@ body {
 
 button {
     color: #333333;
+    font-size: 1.5rem;
 }
 
 .select-panel {
@@ -25,5 +32,9 @@ button {
     height: clamp(150px, 20vh, 400px);
     margin: auto;
     border-radius: 2%;
-    background-color: #693800;
+    background-color: #a66112;
+}
+
+.title-font {
+    font-size: 2rem;
 }
