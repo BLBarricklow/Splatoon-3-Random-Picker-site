@@ -18,7 +18,7 @@
 }
 
 body {
-    background: url(../images/squid-black.png);
+    background: url(../assets/images/squid-black.png);
 }
 
 button {
@@ -32,7 +32,7 @@ button {
 
 .select-panel {
     width: clamp(300px, 40vw, 800px);
-    height: clamp(300px, 40vh, 450px);
+    height: clamp(200px, 25vh, 250px);
     margin: auto;
     border-radius: 10px;
     border: 2px solid var(--s3Lpurple);
@@ -41,7 +41,7 @@ button {
 
 .weapon-panel {
     width: clamp(300px, 40vw, 800px);
-    height: clamp(150px, 20vh, 400px);
+    height: clamp(300px, 20vh, 400px);
     margin: auto;
     border-radius: 10px;
     border: 2px solid var(--s3Lpurple);
