@@ -1,8 +1,10 @@
 :root {
-    --s3purple: #af50ff;
-    --s3Lpurple: #cb8dff;
-    --s3Dpurple: #7a39af;
-    --s3yellow: #eaff3d;
+    /* --s3purple: 175, 80, 255; */
+    --s3purple: rgb(175, 80, 255);
+    --s3Lpurple: rgb(203, 141, 255);
+    --s3Dpurple: rgb(122, 57, 175);
+    --s3yellow: rgb(234, 255, 61);
+    --alpha: 0.8;
 }
 
 @font-face {
@@ -19,6 +21,18 @@
 
 body {
     background: url(../assets/images/squid-black.png);
+}
+
+.navbar {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(218, 165, 32, 0.5);
+    font-size: 1.2rem;
+    text-align: right;
+}
+
+.nav-link {
+    margin: 5px;
 }
 
 button {
@@ -46,8 +60,10 @@ button {
     border-radius: 10px;
     border: 2px solid var(--s3Lpurple);
     background-color: var(--s3purple);
+    /* background-color: rgba(var(--s3purple), var(--alpha)); */
 }
 
 .title-font {
     font-size: 2rem;
+    display: block;
 }
