@@ -55,12 +55,16 @@ button {
 
 .weapon-panel {
     width: clamp(300px, 40vw, 800px);
-    height: clamp(300px, 20vh, 400px);
+    /* height: clamp(300px, 20vh, 600px); */
     margin: auto;
     border-radius: 10px;
     border: 2px solid var(--s3Lpurple);
     background-color: var(--s3purple);
     /* background-color: rgba(var(--s3purple), var(--alpha)); */
+}
+
+.inline-box {
+    display: inline;
 }
 
 .title-font {
