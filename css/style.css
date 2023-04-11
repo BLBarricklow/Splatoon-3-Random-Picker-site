@@ -44,6 +44,16 @@ button {
     padding: 0 1rem;
 }
 
+.kit-inline {
+    height: 50%;
+    display: inline;
+}
+
+.small-icon {
+    width: 64px;
+    height: auto;
+}
+
 .select-panel {
     width: clamp(300px, 40vw, 800px);
     height: clamp(200px, 25vh, 250px);
