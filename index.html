@@ -19,18 +19,24 @@
             <button id="get-random">Hit me!</button>
         </section>
         <section class="weapon-panel">
-            <div>
+            <div id="main-info">
                 <span id="weapon-name" class="title-font"></span>
                 <img id="weapon-icon" src="#" alt="">
             </div>
-            <div id="sub-info" class="">
-                <img id="sub-weapon-icon" src="#" alt=""></img>
-                <div id="sub-weapon" class=""></div>
-            </div>
-            <div id="special-info" class="">
-                <div id="special-weapon" class=""></div>
-            </div>
-            <div id="unlock-level"></div>
+            <section id="kit-info">
+                <div id="sub-info" class="kit-inline">
+                    <img id="sub-weapon-icon" class="small-icon" src="#" alt="">
+                    <div id="sub-weapon" class=""></div>
+                </div>
+                <div id="special-info" class="kit-inline">
+                    <img id="special-weapon-icon" class="small-icon" src="#" alt="">
+                    <div id="special-weapon" class=""></div>
+                </div>
+            </section>
+            <section class="unlock-level-pane">
+                <span>Unlock Level: </spanp>
+                <div id="unlock-level"></div>
+            </section>
             <div id="description" class=""></div>
         </section>
         <script src="js/splatoon3RandoWeapon.js"></script>
