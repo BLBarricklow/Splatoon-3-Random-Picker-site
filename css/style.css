@@ -49,6 +49,10 @@ button {
     display: inline;
 }
 
+.weapon-icon {
+    max-width: 128px;
+}
+
 .small-icon {
     width: 64px;
     height: auto;
