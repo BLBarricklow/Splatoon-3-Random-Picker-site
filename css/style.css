@@ -46,7 +46,8 @@ button {
 
 .kit-inline {
     height: 50%;
-    display: inline;
+    display: inline-block;
+    margin: 0 30px;
 }
 
 .weapon-icon {
