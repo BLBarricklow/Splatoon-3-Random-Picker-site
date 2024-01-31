@@ -21,6 +21,8 @@
 
 body {
     background: url(../assets/images/squid-black.png);
+    height: 100vh;
+    overflow: hidden;
 }
 
 .navbar {
@@ -85,4 +87,22 @@ button {
 .title-font {
     font-size: 2rem;
     display: block;
+}
+
+.main-grid {
+    width: 100%;
+    height: 95vh;
+    border:1px solid blue;
+}
+
+.grid-col {
+    display: inline-block;
+    width: 30%;
+    /* height: 100%; */
+    border: 1px solid red;
+}
+
+.cell {
+    /* background-color: black; */
+    border: 1px solid grey;
 }
