@@ -90,7 +90,9 @@ button {
 }
 
 .main-grid {
-    width: 100%;
+    /* width: 100%; */
+    max-width: 1200px;
+    margin: auto;
     height: 95vh;
     border:1px solid blue;
 }
@@ -102,8 +104,19 @@ button {
     border: 1px solid red;
 }
 
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
 .cell {
     display: block;
     height: 50px;
+    border: 1px solid grey;
+}
+
+.cell2 {
+    height: 64px;
+    line-height: 64px;
     border: 1px solid grey;
 }
