@@ -1,4 +1,3 @@
 Splatoon random tools
-Weapons database
-Random weapon picker
-Skills tracker
+Weapons database - filterable list of weapons
+Random weapon picker - filterable pool for choosing a random weapon
