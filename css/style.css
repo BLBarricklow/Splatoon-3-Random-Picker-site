@@ -63,7 +63,7 @@ button {
 }
 
 .select-panel {
-    width: clamp(300px, 40vw, 400px);
+    width: clamp(300px, 40vw, 500px);
     /* height: clamp(200px, 25vh, 250px); */
     margin: auto;
     padding: 100px auto;
@@ -73,9 +73,10 @@ button {
 }
 
 .weapon-panel {
-    width: clamp(300px, 40vw, 800px);
+    width: clamp(300px, 40vw, 500px);
     /* height: clamp(300px, 20vh, 600px); */
     margin: auto;
+    padding: 100px auto;
     border-radius: 10px;
     border: 2px solid var(--s3Lpurple);
     background-color: var(--s3purple);
